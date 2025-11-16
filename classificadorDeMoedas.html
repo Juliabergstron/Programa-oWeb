@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+   <h2>Classificador de Moedas</h2>
+
+    <label>Digite o valor da  moeda
+    <br>(0,01 | 0,05 | 0,10 | 0,25 | 0,50 | 1):</label>
+    <input type="number" step="0.01" id="moeda"><br><br>
+
+    <button onclick="mostrarClassificacao()">Classificar</button>
+
+    <p id="resultado"></p>
+    
+    </div>
+
+    <script src="ClassificadorDeMoedas.js"></script>
+</body>
+</html>
